@@ -1,0 +1,5 @@
+Map: map1-example
+InfectionsCured: 2
+InfectionsLeft:  12Y,12R,11B,12G
+
+LOSS: Ran out of player cards.

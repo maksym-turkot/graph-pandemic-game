@@ -1,0 +1,48 @@
+Santiago: Lima
+Buenos Aires: Sao Paulo, Bogota
+Lima: Santiago, Bogota, Mexico City
+Bogota: Lima, Miami, Buenos Aires
+Miami: Bogota, Atlanta
+Mexico City: Los Angeles, Chicago, Lima
+Atlanta: Miami
+Los Angeles: Mexico City
+San Francisco: Chicago
+Chicago: San Francisco, Los Angeles, Mexico City, Atlanta, Montreal
+Montreal: Chicago, New York
+Washington: New York
+New York: Montreal, Washington, London
+Sao Paulo: Buenos Aires, Lagos
+London: Paris
+Madrid: London, Paris, Algiers
+Paris: Madrid, Algiers, Milan
+Milan: Paris, Istanbul
+St Petersburg: Essen, Moscow
+Essen: London, St Petersburg
+Istanbul: Milan, Baghdad
+Moscow: St Petersburg, Tehran
+Algiers: Madrid, Paris
+Lagos: Sao Paulo, Kinshasa
+Kinshasa: Lagos, Johannesburg
+Johannesburg: Kinshasa, Khartoum
+Khartoum: Cairo, Johannesburg
+Cairo: Khartoum, Riyadh
+Riyadh: Cairo, Karachi
+Baghdad: Istanbul
+Tehran: Moscow, Delhi
+Karachi: Riyadh, Mumbai
+Mumbai: Karachi, Chennai
+Delhi: Tehran, Kolkata
+Chennai: Mumbai, Bangkok
+Kolkata: Delhi, Hong Kong
+Bangkok: Chennai, Ho Chi Minh City
+Jakarta: Ho Chi Minh City, Sydney
+Ho Chi Minh City: Jakarta, Bangkok, Manila
+Sydney: Jakarta
+Manila: Ho Chi Minh City, Taipei
+Taipei: Manila, Osaka
+Hong Kong: Kolkata, Shanghai
+Osaka: Taipei, Tokyo
+Shanghai: Beijing, Hong Kong
+Beijing: Seoul, Shanghai
+Seoul: Beijing, Tokyo
+Tokyo: Osaka, Seoul

@@ -1,0 +1,5 @@
+Map: map2-sparse
+InfectionsCured: 1
+InfectionsLeft:  12Y,12R,12B,11G
+
+LOSS: Ran out of player cards.

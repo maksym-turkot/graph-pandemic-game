@@ -1,0 +1,1686 @@
+**********************************************
+Map: map1-example | Seed: 1 | Turn: 1 | InfectRate: 2
+==============================================
+CityCards: 32 | InfectionCards: 31
+==============================================
+Diseases: 
+         Active    isCured    isEradicated
+Yellow:    5        false        false
+Red:       0        false        false
+Blue:      4        false        false
+Green:     8        false        false
+==============================================
+Pawns:
+
+ID: 223
+CityCards:   [Chicago, Miami, Beijing, Madrid]
+CardColors:  [Y, Y, Y, G]
+CurrentCity: Tokyo
+CityTrace:   [Seoul, Tokyo]
+
+ID: 224
+CityCards:   [Cairo, Istanbul, Hong Kong, Jakarta]
+CardColors:  [B, B, G, B]
+CurrentCity: Essen
+CityTrace:   [Moscow, St Petersburg, Essen]
+
+ID: 225
+CityCards:   [Seoul, Baghdad, St Petersburg, Osaka]
+CardColors:  [R, R, G, G]
+CurrentCity: Istanbul
+CityTrace:   [Baghdad, Cairo, Algiers, Istanbul]
+
+ID: 226
+CityCards:   [Tokyo, Delhi, Chennai, Montreal]
+CardColors:  [G, R, G, R]
+CurrentCity: Madrid
+CityTrace:   [New York, London, Madrid]
+
+==============================================
+Cities:
+
+Algiers
+Color: Y
+Neighbors:  [Cairo, Istanbul, Madrid, Paris]
+Infections: 1Y,0R,0B,0G
+
+Atlanta
+Color: R
+Neighbors:  [Chicago, Miami, Washington]
+Infections: 0Y,0R,0B,0G
+
+Baghdad
+Color: R
+Neighbors:  [Cairo, Istanbul, Karachi, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Bangkok
+Color: R
+Neighbors:  [Chennai, Ho Chi Minh City, Hong Kong, Jakarta, Kolkata]
+Infections: 0Y,0R,0B,0G
+
+Beijing
+Color: Y
+Neighbors:  [Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Bogota
+Color: B
+Neighbors:  [Buenos Aires, Lima, Mexico City, Miami, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Buenos Aires
+Color: Y
+Neighbors:  [Bogota, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Cairo
+Color: B
+Neighbors:  [Algiers, Baghdad, Istanbul, Khartoum, Riyadh]
+Infections: 0Y,0R,0B,0G
+
+Chennai
+Color: G
+Neighbors:  [Bangkok, Delhi, Jakarta, Kolkata, Mumbai]
+Infections: 0Y,0R,0B,1G
+
+Chicago
+Color: Y
+Neighbors:  [Atlanta, Los Angeles, Mexico City, Montreal, San Francisco]
+Infections: 0Y,0R,0B,0G
+
+Delhi
+Color: R
+Neighbors:  [Chennai, Karachi, Kolkata, Mumbai, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Essen
+Color: G
+Neighbors:  [London, Milan, Paris, St Petersburg]
+Infections: 0Y,0R,0B,1G
+
+Ho Chi Minh City
+Color: Y
+Neighbors:  [Bangkok, Hong Kong, Jakarta, Manila]
+Infections: 0Y,0R,0B,0G
+
+Hong Kong
+Color: G
+Neighbors:  [Bangkok, Ho Chi Minh City, Kolkata, Manila, Shanghai, Taipei]
+Infections: 0Y,0R,0B,0G
+
+Istanbul
+Color: B
+Neighbors:  [Algiers, Baghdad, Cairo, Milan, Moscow, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Jakarta
+Color: B
+Neighbors:  [Bangkok, Chennai, Ho Chi Minh City, Sydney]
+Infections: 0Y,0R,0B,0G
+
+Johannesburg
+Color: B
+Neighbors:  [Khartoum, Kinshasa]
+Infections: 0Y,0R,1B,0G
+
+Karachi
+Color: Y
+Neighbors:  [Baghdad, Delhi, Mumbai, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Khartoum
+Color: R
+Neighbors:  [Cairo, Johannesburg, Kinshasa, Lagos]
+Infections: 0Y,0R,0B,0G
+
+Kinshasa
+Color: Y
+Neighbors:  [Johannesburg, Khartoum, Lagos]
+Infections: 2Y,0R,0B,0G
+
+Kolkata
+Color: Y
+Neighbors:  [Bangkok, Chennai, Delhi, Hong Kong]
+Infections: 0Y,0R,0B,0G
+
+Lagos
+Color: R
+Neighbors:  [Khartoum, Kinshasa, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Lima
+Color: G
+Neighbors:  [Bogota, Mexico City, Santiago]
+Infections: 0Y,0R,0B,0G
+
+London
+Color: Y
+Neighbors:  [Essen, Madrid, New York, Paris]
+Infections: 0Y,0R,0B,0G
+
+Los Angeles
+Color: G
+Neighbors:  [Chicago, Mexico City, San Francisco, Sydney]
+Infections: 0Y,0R,0B,1G
+
+Madrid
+Color: G
+Neighbors:  [Algiers, London, New York, Paris, Sao Paulo]
+Infections: 0Y,0R,0B,1G
+
+Manila
+Color: Y
+Neighbors:  [Ho Chi Minh City, Hong Kong, San Francisco, Sydney, Taipei]
+Infections: 1Y,0R,0B,0G
+
+Mexico City
+Color: G
+Neighbors:  [Bogota, Chicago, Lima, Los Angeles, Miami]
+Infections: 0Y,0R,0B,0G
+
+Miami
+Color: Y
+Neighbors:  [Atlanta, Bogota, Mexico City, Washington]
+Infections: 3Y,0R,0B,0G
+
+Milan
+Color: R
+Neighbors:  [Essen, Istanbul, Paris]
+Infections: 0Y,0R,0B,0G
+
+Montreal
+Color: R
+Neighbors:  [Chicago, New York, Washington]
+Infections: 0Y,0R,0B,0G
+
+Moscow
+Color: Y
+Neighbors:  [Istanbul, St Petersburg, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Mumbai
+Color: B
+Neighbors:  [Chennai, Delhi, Karachi]
+Infections: 0Y,0R,2B,0G
+
+New York
+Color: B
+Neighbors:  [London, Madrid, Montreal, Washington]
+Infections: 0Y,0R,0B,0G
+
+Osaka
+Color: G
+Neighbors:  [Taipei, Tokyo]
+Infections: 0Y,0R,0B,3G
+
+Paris
+Color: B
+Neighbors:  [Algiers, Essen, London, Madrid, Milan]
+Infections: 0Y,0R,3B,0G
+
+Riyadh
+Color: G
+Neighbors:  [Baghdad, Cairo, Karachi]
+Infections: 0Y,0R,0B,0G
+
+San Francisco
+Color: B
+Neighbors:  [Chicago, Los Angeles, Manila, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Santiago
+Color: B
+Neighbors:  [Lima]
+Infections: 0Y,0R,1B,0G
+
+Sao Paulo
+Color: R
+Neighbors:  [Bogota, Buenos Aires, Lagos, Madrid]
+Infections: 0Y,0R,0B,0G
+
+Seoul
+Color: R
+Neighbors:  [Beijing, Shanghai, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Shanghai
+Color: B
+Neighbors:  [Beijing, Hong Kong, Seoul, Taipei, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+St Petersburg
+Color: G
+Neighbors:  [Essen, Istanbul, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Sydney
+Color: R
+Neighbors:  [Jakarta, Los Angeles, Manila]
+Infections: 0Y,0R,0B,0G
+
+Taipei
+Color: R
+Neighbors:  [Hong Kong, Manila, Osaka, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Tehran
+Color: G
+Neighbors:  [Baghdad, Delhi, Karachi, Moscow]
+Infections: 0Y,0R,0B,1G
+
+Tokyo
+Color: G
+Neighbors:  [Osaka, San Francisco, Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Washington
+Color: B
+Neighbors:  [Atlanta, Miami, Montreal, New York]
+Infections: 0Y,0R,0B,0G
+
+**********************************************
+Map: map1-example | Seed: 1 | Turn: 2 | InfectRate: 2
+==============================================
+CityCards: 24 | InfectionCards: 23
+==============================================
+Diseases: 
+         Active    isCured    isEradicated
+Yellow:    7        false        false
+Red:       3        false        false
+Blue:      6        false        false
+Green:     9        false        false
+==============================================
+Pawns:
+
+ID: 223
+CityCards:   [Chicago, Miami, Beijing, Madrid, Riyadh, Milan]
+CardColors:  [Y, Y, Y, G, G, R]
+CurrentCity: Shanghai
+CityTrace:   [Seoul, Tokyo, Seoul, Tokyo, Shanghai]
+
+ID: 224
+CityCards:   [Cairo, Istanbul, Hong Kong, Jakarta, Mumbai, Taipei]
+CardColors:  [B, B, G, B, B, R]
+CurrentCity: Istanbul
+CityTrace:   [Moscow, St Petersburg, Essen, Milan, Istanbul]
+
+ID: 225
+CityCards:   [Seoul, Baghdad, St Petersburg, Osaka, Essen, Washington]
+CardColors:  [R, R, G, G, G, B]
+CurrentCity: Karachi
+CityTrace:   [Baghdad, Cairo, Algiers, Istanbul, Cairo, Riyadh, Karachi]
+
+ID: 226
+CityCards:   [Tokyo, Delhi, Chennai, Montreal, Shanghai, Tehran]
+CardColors:  [G, R, G, R, B, G]
+CurrentCity: Paris
+CityTrace:   [New York, London, Madrid, Paris]
+
+==============================================
+Cities:
+
+Algiers
+Color: Y
+Neighbors:  [Cairo, Istanbul, Madrid, Paris]
+Infections: 1Y,0R,0B,0G
+
+Atlanta
+Color: R
+Neighbors:  [Chicago, Miami, Washington]
+Infections: 0Y,0R,0B,0G
+
+Baghdad
+Color: R
+Neighbors:  [Cairo, Istanbul, Karachi, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Bangkok
+Color: R
+Neighbors:  [Chennai, Ho Chi Minh City, Hong Kong, Jakarta, Kolkata]
+Infections: 0Y,0R,0B,0G
+
+Beijing
+Color: Y
+Neighbors:  [Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Bogota
+Color: B
+Neighbors:  [Buenos Aires, Lima, Mexico City, Miami, Sao Paulo]
+Infections: 0Y,0R,1B,0G
+
+Buenos Aires
+Color: Y
+Neighbors:  [Bogota, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Cairo
+Color: B
+Neighbors:  [Algiers, Baghdad, Istanbul, Khartoum, Riyadh]
+Infections: 0Y,0R,0B,0G
+
+Chennai
+Color: G
+Neighbors:  [Bangkok, Delhi, Jakarta, Kolkata, Mumbai]
+Infections: 0Y,0R,0B,1G
+
+Chicago
+Color: Y
+Neighbors:  [Atlanta, Los Angeles, Mexico City, Montreal, San Francisco]
+Infections: 1Y,0R,0B,0G
+
+Delhi
+Color: R
+Neighbors:  [Chennai, Karachi, Kolkata, Mumbai, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Essen
+Color: G
+Neighbors:  [London, Milan, Paris, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Ho Chi Minh City
+Color: Y
+Neighbors:  [Bangkok, Hong Kong, Jakarta, Manila]
+Infections: 0Y,0R,0B,0G
+
+Hong Kong
+Color: G
+Neighbors:  [Bangkok, Ho Chi Minh City, Kolkata, Manila, Shanghai, Taipei]
+Infections: 0Y,0R,0B,0G
+
+Istanbul
+Color: B
+Neighbors:  [Algiers, Baghdad, Cairo, Milan, Moscow, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Jakarta
+Color: B
+Neighbors:  [Bangkok, Chennai, Ho Chi Minh City, Sydney]
+Infections: 0Y,0R,1B,0G
+
+Johannesburg
+Color: B
+Neighbors:  [Khartoum, Kinshasa]
+Infections: 0Y,0R,1B,0G
+
+Karachi
+Color: Y
+Neighbors:  [Baghdad, Delhi, Mumbai, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Khartoum
+Color: R
+Neighbors:  [Cairo, Johannesburg, Kinshasa, Lagos]
+Infections: 0Y,0R,0B,0G
+
+Kinshasa
+Color: Y
+Neighbors:  [Johannesburg, Khartoum, Lagos]
+Infections: 2Y,0R,0B,0G
+
+Kolkata
+Color: Y
+Neighbors:  [Bangkok, Chennai, Delhi, Hong Kong]
+Infections: 0Y,0R,0B,0G
+
+Lagos
+Color: R
+Neighbors:  [Khartoum, Kinshasa, Sao Paulo]
+Infections: 0Y,1R,0B,0G
+
+Lima
+Color: G
+Neighbors:  [Bogota, Mexico City, Santiago]
+Infections: 0Y,0R,0B,1G
+
+London
+Color: Y
+Neighbors:  [Essen, Madrid, New York, Paris]
+Infections: 0Y,0R,0B,0G
+
+Los Angeles
+Color: G
+Neighbors:  [Chicago, Mexico City, San Francisco, Sydney]
+Infections: 0Y,0R,0B,1G
+
+Madrid
+Color: G
+Neighbors:  [Algiers, London, New York, Paris, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Manila
+Color: Y
+Neighbors:  [Ho Chi Minh City, Hong Kong, San Francisco, Sydney, Taipei]
+Infections: 1Y,0R,0B,0G
+
+Mexico City
+Color: G
+Neighbors:  [Bogota, Chicago, Lima, Los Angeles, Miami]
+Infections: 0Y,0R,0B,0G
+
+Miami
+Color: Y
+Neighbors:  [Atlanta, Bogota, Mexico City, Washington]
+Infections: 3Y,0R,0B,0G
+
+Milan
+Color: R
+Neighbors:  [Essen, Istanbul, Paris]
+Infections: 0Y,0R,0B,0G
+
+Montreal
+Color: R
+Neighbors:  [Chicago, New York, Washington]
+Infections: 0Y,0R,0B,0G
+
+Moscow
+Color: Y
+Neighbors:  [Istanbul, St Petersburg, Tehran]
+Infections: 1Y,0R,0B,0G
+
+Mumbai
+Color: B
+Neighbors:  [Chennai, Delhi, Karachi]
+Infections: 0Y,0R,2B,0G
+
+New York
+Color: B
+Neighbors:  [London, Madrid, Montreal, Washington]
+Infections: 0Y,0R,0B,0G
+
+Osaka
+Color: G
+Neighbors:  [Taipei, Tokyo]
+Infections: 0Y,0R,0B,3G
+
+Paris
+Color: B
+Neighbors:  [Algiers, Essen, London, Madrid, Milan]
+Infections: 0Y,0R,2B,0G
+
+Riyadh
+Color: G
+Neighbors:  [Baghdad, Cairo, Karachi]
+Infections: 0Y,0R,0B,0G
+
+San Francisco
+Color: B
+Neighbors:  [Chicago, Los Angeles, Manila, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Santiago
+Color: B
+Neighbors:  [Lima]
+Infections: 0Y,0R,1B,0G
+
+Sao Paulo
+Color: R
+Neighbors:  [Bogota, Buenos Aires, Lagos, Madrid]
+Infections: 0Y,0R,0B,0G
+
+Seoul
+Color: R
+Neighbors:  [Beijing, Shanghai, Tokyo]
+Infections: 0Y,1R,0B,0G
+
+Shanghai
+Color: B
+Neighbors:  [Beijing, Hong Kong, Seoul, Taipei, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+St Petersburg
+Color: G
+Neighbors:  [Essen, Istanbul, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Sydney
+Color: R
+Neighbors:  [Jakarta, Los Angeles, Manila]
+Infections: 0Y,0R,0B,0G
+
+Taipei
+Color: R
+Neighbors:  [Hong Kong, Manila, Osaka, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Tehran
+Color: G
+Neighbors:  [Baghdad, Delhi, Karachi, Moscow]
+Infections: 0Y,0R,0B,1G
+
+Tokyo
+Color: G
+Neighbors:  [Osaka, San Francisco, Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Washington
+Color: B
+Neighbors:  [Atlanta, Miami, Montreal, New York]
+Infections: 0Y,0R,0B,0G
+
+**********************************************
+Map: map1-example | Seed: 1 | Turn: 3 | InfectRate: 2
+==============================================
+CityCards: 16 | InfectionCards: 15
+==============================================
+Diseases: 
+         Active    isCured    isEradicated
+Yellow:    8        false        false
+Red:       7        false        false
+Blue:      7        false        false
+Green:     11        false        false
+==============================================
+Pawns:
+
+ID: 223
+CityCards:   [Chicago, Miami, Beijing, Madrid, Riyadh, Santiago, San Francisco]
+CardColors:  [Y, Y, Y, G, G, R, B, B]
+CurrentCity: Beijing
+CityTrace:   [Seoul, Tokyo, Seoul, Tokyo, Shanghai, Hong Kong, Shanghai, Beijing]
+
+ID: 224
+CityCards:   [Cairo, Istanbul, Hong Kong, Jakarta, Mumbai, Taipei, Lima]
+CardColors:  [B, B, G, B, B, R, G, Y]
+CurrentCity: Madrid
+CityTrace:   [Moscow, St Petersburg, Essen, Milan, Istanbul, Algiers, Madrid]
+
+ID: 225
+CityCards:   [Seoul, Baghdad, St Petersburg, Osaka, Essen, Paris, Bangkok]
+CardColors:  [R, R, G, G, G, B, B, R]
+CurrentCity: Moscow
+CityTrace:   [Baghdad, Cairo, Algiers, Istanbul, Cairo, Riyadh, Karachi, Tehran, Moscow]
+
+ID: 226
+CityCards:   [Tokyo, Chennai, Montreal, Shanghai, Tehran, New York, Mexico City]
+CardColors:  [G, R, G, R, B, G, B, G]
+CurrentCity: London
+CityTrace:   [New York, London, Madrid, Paris, London]
+
+==============================================
+Cities:
+
+Algiers
+Color: Y
+Neighbors:  [Cairo, Istanbul, Madrid, Paris]
+Infections: 0Y,0R,0B,0G
+
+Atlanta
+Color: R
+Neighbors:  [Chicago, Miami, Washington]
+Infections: 0Y,1R,0B,0G
+
+Baghdad
+Color: R
+Neighbors:  [Cairo, Istanbul, Karachi, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Bangkok
+Color: R
+Neighbors:  [Chennai, Ho Chi Minh City, Hong Kong, Jakarta, Kolkata]
+Infections: 0Y,1R,0B,0G
+
+Beijing
+Color: Y
+Neighbors:  [Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Bogota
+Color: B
+Neighbors:  [Buenos Aires, Lima, Mexico City, Miami, Sao Paulo]
+Infections: 0Y,0R,1B,0G
+
+Buenos Aires
+Color: Y
+Neighbors:  [Bogota, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Cairo
+Color: B
+Neighbors:  [Algiers, Baghdad, Istanbul, Khartoum, Riyadh]
+Infections: 0Y,0R,0B,0G
+
+Chennai
+Color: G
+Neighbors:  [Bangkok, Delhi, Jakarta, Kolkata, Mumbai]
+Infections: 0Y,0R,0B,1G
+
+Chicago
+Color: Y
+Neighbors:  [Atlanta, Los Angeles, Mexico City, Montreal, San Francisco]
+Infections: 1Y,0R,0B,0G
+
+Delhi
+Color: R
+Neighbors:  [Chennai, Karachi, Kolkata, Mumbai, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Essen
+Color: G
+Neighbors:  [London, Milan, Paris, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Ho Chi Minh City
+Color: Y
+Neighbors:  [Bangkok, Hong Kong, Jakarta, Manila]
+Infections: 0Y,0R,0B,0G
+
+Hong Kong
+Color: G
+Neighbors:  [Bangkok, Ho Chi Minh City, Kolkata, Manila, Shanghai, Taipei]
+Infections: 0Y,0R,0B,1G
+
+Istanbul
+Color: B
+Neighbors:  [Algiers, Baghdad, Cairo, Milan, Moscow, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Jakarta
+Color: B
+Neighbors:  [Bangkok, Chennai, Ho Chi Minh City, Sydney]
+Infections: 0Y,0R,1B,0G
+
+Johannesburg
+Color: B
+Neighbors:  [Khartoum, Kinshasa]
+Infections: 0Y,0R,1B,0G
+
+Karachi
+Color: Y
+Neighbors:  [Baghdad, Delhi, Mumbai, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Khartoum
+Color: R
+Neighbors:  [Cairo, Johannesburg, Kinshasa, Lagos]
+Infections: 0Y,1R,0B,0G
+
+Kinshasa
+Color: Y
+Neighbors:  [Johannesburg, Khartoum, Lagos]
+Infections: 2Y,0R,0B,0G
+
+Kolkata
+Color: Y
+Neighbors:  [Bangkok, Chennai, Delhi, Hong Kong]
+Infections: 1Y,0R,0B,0G
+
+Lagos
+Color: R
+Neighbors:  [Khartoum, Kinshasa, Sao Paulo]
+Infections: 0Y,1R,0B,0G
+
+Lima
+Color: G
+Neighbors:  [Bogota, Mexico City, Santiago]
+Infections: 0Y,0R,0B,1G
+
+London
+Color: Y
+Neighbors:  [Essen, Madrid, New York, Paris]
+Infections: 0Y,0R,0B,0G
+
+Los Angeles
+Color: G
+Neighbors:  [Chicago, Mexico City, San Francisco, Sydney]
+Infections: 0Y,0R,0B,1G
+
+Madrid
+Color: G
+Neighbors:  [Algiers, London, New York, Paris, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Manila
+Color: Y
+Neighbors:  [Ho Chi Minh City, Hong Kong, San Francisco, Sydney, Taipei]
+Infections: 1Y,0R,0B,0G
+
+Mexico City
+Color: G
+Neighbors:  [Bogota, Chicago, Lima, Los Angeles, Miami]
+Infections: 0Y,0R,0B,1G
+
+Miami
+Color: Y
+Neighbors:  [Atlanta, Bogota, Mexico City, Washington]
+Infections: 3Y,0R,0B,0G
+
+Milan
+Color: R
+Neighbors:  [Essen, Istanbul, Paris]
+Infections: 0Y,1R,0B,0G
+
+Montreal
+Color: R
+Neighbors:  [Chicago, New York, Washington]
+Infections: 0Y,0R,0B,0G
+
+Moscow
+Color: Y
+Neighbors:  [Istanbul, St Petersburg, Tehran]
+Infections: 1Y,0R,0B,0G
+
+Mumbai
+Color: B
+Neighbors:  [Chennai, Delhi, Karachi]
+Infections: 0Y,0R,2B,0G
+
+New York
+Color: B
+Neighbors:  [London, Madrid, Montreal, Washington]
+Infections: 0Y,0R,1B,0G
+
+Osaka
+Color: G
+Neighbors:  [Taipei, Tokyo]
+Infections: 0Y,0R,0B,3G
+
+Paris
+Color: B
+Neighbors:  [Algiers, Essen, London, Madrid, Milan]
+Infections: 0Y,0R,0B,0G
+
+Riyadh
+Color: G
+Neighbors:  [Baghdad, Cairo, Karachi]
+Infections: 0Y,0R,0B,0G
+
+San Francisco
+Color: B
+Neighbors:  [Chicago, Los Angeles, Manila, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Santiago
+Color: B
+Neighbors:  [Lima]
+Infections: 0Y,0R,1B,0G
+
+Sao Paulo
+Color: R
+Neighbors:  [Bogota, Buenos Aires, Lagos, Madrid]
+Infections: 0Y,0R,0B,0G
+
+Seoul
+Color: R
+Neighbors:  [Beijing, Shanghai, Tokyo]
+Infections: 0Y,1R,0B,0G
+
+Shanghai
+Color: B
+Neighbors:  [Beijing, Hong Kong, Seoul, Taipei, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+St Petersburg
+Color: G
+Neighbors:  [Essen, Istanbul, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Sydney
+Color: R
+Neighbors:  [Jakarta, Los Angeles, Manila]
+Infections: 0Y,0R,0B,0G
+
+Taipei
+Color: R
+Neighbors:  [Hong Kong, Manila, Osaka, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Tehran
+Color: G
+Neighbors:  [Baghdad, Delhi, Karachi, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Tokyo
+Color: G
+Neighbors:  [Osaka, San Francisco, Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Washington
+Color: B
+Neighbors:  [Atlanta, Miami, Montreal, New York]
+Infections: 0Y,0R,0B,0G
+
+**********************************************
+Map: map1-example | Seed: 1 | Turn: 4 | InfectRate: 2
+==============================================
+CityCards: 8 | InfectionCards: 7
+==============================================
+Diseases: 
+         Active    isCured    isEradicated
+Yellow:    9        false        false
+Red:       9        false        false
+Blue:      11        false        false
+Green:     12        false        false
+==============================================
+Pawns:
+
+ID: 223
+CityCards:   [Chicago, Miami, Beijing, Madrid, Riyadh, San Francisco, Kolkata]
+CardColors:  [Y, Y, Y, G, G, B, B, Y, R]
+CurrentCity: Beijing
+CityTrace:   [Seoul, Tokyo, Seoul, Tokyo, Shanghai, Hong Kong, Shanghai, Beijing, Seoul, Beijing]
+
+ID: 224
+CityCards:   [Cairo, Istanbul, Hong Kong, Jakarta, Mumbai, Lima, Sao Paulo]
+CardColors:  [B, B, G, B, B, R, G, Y, R]
+CurrentCity: Montreal
+CityTrace:   [Moscow, St Petersburg, Essen, Milan, Istanbul, Algiers, Madrid, New York, Montreal]
+
+ID: 225
+CityCards:   [Baghdad, St Petersburg, Osaka, Essen, Bangkok, Los Angeles, Atlanta]
+CardColors:  [R, R, G, G, G, B, R, G, R]
+CurrentCity: Baghdad
+CityTrace:   [Baghdad, Cairo, Algiers, Istanbul, Cairo, Riyadh, Karachi, Tehran, Moscow, Tehran, Baghdad]
+
+ID: 226
+CityCards:   [Tokyo, Chennai, Shanghai, Tehran, New York, Mexico City, Khartoum]
+CardColors:  [G, G, R, B, G, B, G, Y, R]
+CurrentCity: London
+CityTrace:   [New York, London, Madrid, Paris, London, Madrid, New York, London]
+
+==============================================
+Cities:
+
+Algiers
+Color: Y
+Neighbors:  [Cairo, Istanbul, Madrid, Paris]
+Infections: 0Y,0R,0B,0G
+
+Atlanta
+Color: R
+Neighbors:  [Chicago, Miami, Washington]
+Infections: 0Y,1R,0B,0G
+
+Baghdad
+Color: R
+Neighbors:  [Cairo, Istanbul, Karachi, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Bangkok
+Color: R
+Neighbors:  [Chennai, Ho Chi Minh City, Hong Kong, Jakarta, Kolkata]
+Infections: 0Y,1R,0B,0G
+
+Beijing
+Color: Y
+Neighbors:  [Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Bogota
+Color: B
+Neighbors:  [Buenos Aires, Lima, Mexico City, Miami, Sao Paulo]
+Infections: 0Y,0R,1B,0G
+
+Buenos Aires
+Color: Y
+Neighbors:  [Bogota, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Cairo
+Color: B
+Neighbors:  [Algiers, Baghdad, Istanbul, Khartoum, Riyadh]
+Infections: 0Y,0R,0B,0G
+
+Chennai
+Color: G
+Neighbors:  [Bangkok, Delhi, Jakarta, Kolkata, Mumbai]
+Infections: 0Y,0R,0B,1G
+
+Chicago
+Color: Y
+Neighbors:  [Atlanta, Los Angeles, Mexico City, Montreal, San Francisco]
+Infections: 1Y,0R,0B,0G
+
+Delhi
+Color: R
+Neighbors:  [Chennai, Karachi, Kolkata, Mumbai, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Essen
+Color: G
+Neighbors:  [London, Milan, Paris, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Ho Chi Minh City
+Color: Y
+Neighbors:  [Bangkok, Hong Kong, Jakarta, Manila]
+Infections: 1Y,0R,0B,0G
+
+Hong Kong
+Color: G
+Neighbors:  [Bangkok, Ho Chi Minh City, Kolkata, Manila, Shanghai, Taipei]
+Infections: 0Y,0R,0B,1G
+
+Istanbul
+Color: B
+Neighbors:  [Algiers, Baghdad, Cairo, Milan, Moscow, St Petersburg]
+Infections: 0Y,0R,1B,0G
+
+Jakarta
+Color: B
+Neighbors:  [Bangkok, Chennai, Ho Chi Minh City, Sydney]
+Infections: 0Y,0R,1B,0G
+
+Johannesburg
+Color: B
+Neighbors:  [Khartoum, Kinshasa]
+Infections: 0Y,0R,1B,0G
+
+Karachi
+Color: Y
+Neighbors:  [Baghdad, Delhi, Mumbai, Riyadh, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Khartoum
+Color: R
+Neighbors:  [Cairo, Johannesburg, Kinshasa, Lagos]
+Infections: 0Y,1R,0B,0G
+
+Kinshasa
+Color: Y
+Neighbors:  [Johannesburg, Khartoum, Lagos]
+Infections: 2Y,0R,0B,0G
+
+Kolkata
+Color: Y
+Neighbors:  [Bangkok, Chennai, Delhi, Hong Kong]
+Infections: 1Y,0R,0B,0G
+
+Lagos
+Color: R
+Neighbors:  [Khartoum, Kinshasa, Sao Paulo]
+Infections: 0Y,1R,0B,0G
+
+Lima
+Color: G
+Neighbors:  [Bogota, Mexico City, Santiago]
+Infections: 0Y,0R,0B,1G
+
+London
+Color: Y
+Neighbors:  [Essen, Madrid, New York, Paris]
+Infections: 0Y,0R,0B,0G
+
+Los Angeles
+Color: G
+Neighbors:  [Chicago, Mexico City, San Francisco, Sydney]
+Infections: 0Y,0R,0B,1G
+
+Madrid
+Color: G
+Neighbors:  [Algiers, London, New York, Paris, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Manila
+Color: Y
+Neighbors:  [Ho Chi Minh City, Hong Kong, San Francisco, Sydney, Taipei]
+Infections: 1Y,0R,0B,0G
+
+Mexico City
+Color: G
+Neighbors:  [Bogota, Chicago, Lima, Los Angeles, Miami]
+Infections: 0Y,0R,0B,1G
+
+Miami
+Color: Y
+Neighbors:  [Atlanta, Bogota, Mexico City, Washington]
+Infections: 3Y,0R,0B,0G
+
+Milan
+Color: R
+Neighbors:  [Essen, Istanbul, Paris]
+Infections: 0Y,1R,0B,0G
+
+Montreal
+Color: R
+Neighbors:  [Chicago, New York, Washington]
+Infections: 0Y,0R,0B,0G
+
+Moscow
+Color: Y
+Neighbors:  [Istanbul, St Petersburg, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Mumbai
+Color: B
+Neighbors:  [Chennai, Delhi, Karachi]
+Infections: 0Y,0R,2B,0G
+
+New York
+Color: B
+Neighbors:  [London, Madrid, Montreal, Washington]
+Infections: 0Y,0R,0B,0G
+
+Osaka
+Color: G
+Neighbors:  [Taipei, Tokyo]
+Infections: 0Y,0R,0B,3G
+
+Paris
+Color: B
+Neighbors:  [Algiers, Essen, London, Madrid, Milan]
+Infections: 0Y,0R,0B,0G
+
+Riyadh
+Color: G
+Neighbors:  [Baghdad, Cairo, Karachi]
+Infections: 0Y,0R,0B,1G
+
+San Francisco
+Color: B
+Neighbors:  [Chicago, Los Angeles, Manila, Tokyo]
+Infections: 0Y,0R,1B,0G
+
+Santiago
+Color: B
+Neighbors:  [Lima]
+Infections: 0Y,0R,1B,0G
+
+Sao Paulo
+Color: R
+Neighbors:  [Bogota, Buenos Aires, Lagos, Madrid]
+Infections: 0Y,1R,0B,0G
+
+Seoul
+Color: R
+Neighbors:  [Beijing, Shanghai, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Shanghai
+Color: B
+Neighbors:  [Beijing, Hong Kong, Seoul, Taipei, Tokyo]
+Infections: 0Y,0R,1B,0G
+
+St Petersburg
+Color: G
+Neighbors:  [Essen, Istanbul, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Sydney
+Color: R
+Neighbors:  [Jakarta, Los Angeles, Manila]
+Infections: 0Y,0R,0B,0G
+
+Taipei
+Color: R
+Neighbors:  [Hong Kong, Manila, Osaka, Shanghai]
+Infections: 0Y,1R,0B,0G
+
+Tehran
+Color: G
+Neighbors:  [Baghdad, Delhi, Karachi, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Tokyo
+Color: G
+Neighbors:  [Osaka, San Francisco, Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Washington
+Color: B
+Neighbors:  [Atlanta, Miami, Montreal, New York]
+Infections: 0Y,0R,1B,0G
+
+**********************************************
+Map: map1-example | Seed: 1 | Turn: 5 | InfectRate: 2
+==============================================
+CityCards: 0 | InfectionCards: 47
+==============================================
+Diseases: 
+         Active    isCured    isEradicated
+Yellow:    12        false        false
+Red:       13        false        false
+Blue:      12        false        false
+Green:     12        false        false
+==============================================
+Pawns:
+
+ID: 223
+CityCards:   [Chicago, Miami, Beijing, Madrid, Riyadh, Kolkata, Karachi]
+CardColors:  [Y, Y, Y, G, G, B, Y, B, Y]
+CurrentCity: Hong Kong
+CityTrace:   [Seoul, Tokyo, Seoul, Tokyo, Shanghai, Hong Kong, Shanghai, Beijing, Seoul, Beijing, Shanghai, Hong Kong]
+
+ID: 224
+CityCards:   [Cairo, Istanbul, Hong Kong, Jakarta, Mumbai, Lima, Johannesburg]
+CardColors:  [B, B, G, B, B, G, R, Y, B]
+CurrentCity: Washington
+CityTrace:   [Moscow, St Petersburg, Essen, Milan, Istanbul, Algiers, Madrid, New York, Montreal, New York, Washington]
+
+ID: 225
+CityCards:   [St Petersburg, Osaka, Essen, Bangkok, Los Angeles, Atlanta, Sydney]
+CardColors:  [R, G, G, G, R, G, R, R, Y]
+CurrentCity: Baghdad
+CityTrace:   [Baghdad, Cairo, Algiers, Istanbul, Cairo, Riyadh, Karachi, Tehran, Moscow, Tehran, Baghdad, Cairo, Baghdad]
+
+ID: 226
+CityCards:   [Tokyo, Chennai, Shanghai, Tehran, New York, Mexico City, Moscow]
+CardColors:  [G, G, B, G, B, G, R, Y, Y]
+CurrentCity: Washington
+CityTrace:   [New York, London, Madrid, Paris, London, Madrid, New York, London, Madrid, New York, Washington]
+
+==============================================
+Cities:
+
+Algiers
+Color: Y
+Neighbors:  [Cairo, Istanbul, Madrid, Paris]
+Infections: 0Y,0R,0B,0G
+
+Atlanta
+Color: R
+Neighbors:  [Chicago, Miami, Washington]
+Infections: 0Y,1R,0B,0G
+
+Baghdad
+Color: R
+Neighbors:  [Cairo, Istanbul, Karachi, Riyadh, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Bangkok
+Color: R
+Neighbors:  [Chennai, Ho Chi Minh City, Hong Kong, Jakarta, Kolkata]
+Infections: 0Y,1R,0B,0G
+
+Beijing
+Color: Y
+Neighbors:  [Seoul, Shanghai]
+Infections: 1Y,0R,0B,0G
+
+Bogota
+Color: B
+Neighbors:  [Buenos Aires, Lima, Mexico City, Miami, Sao Paulo]
+Infections: 0Y,0R,1B,0G
+
+Buenos Aires
+Color: Y
+Neighbors:  [Bogota, Sao Paulo]
+Infections: 1Y,0R,0B,0G
+
+Cairo
+Color: B
+Neighbors:  [Algiers, Baghdad, Istanbul, Khartoum, Riyadh]
+Infections: 0Y,0R,0B,0G
+
+Chennai
+Color: G
+Neighbors:  [Bangkok, Delhi, Jakarta, Kolkata, Mumbai]
+Infections: 0Y,0R,0B,1G
+
+Chicago
+Color: Y
+Neighbors:  [Atlanta, Los Angeles, Mexico City, Montreal, San Francisco]
+Infections: 1Y,0R,0B,0G
+
+Delhi
+Color: R
+Neighbors:  [Chennai, Karachi, Kolkata, Mumbai, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Essen
+Color: G
+Neighbors:  [London, Milan, Paris, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Ho Chi Minh City
+Color: Y
+Neighbors:  [Bangkok, Hong Kong, Jakarta, Manila]
+Infections: 1Y,0R,0B,0G
+
+Hong Kong
+Color: G
+Neighbors:  [Bangkok, Ho Chi Minh City, Kolkata, Manila, Shanghai, Taipei]
+Infections: 0Y,0R,0B,1G
+
+Istanbul
+Color: B
+Neighbors:  [Algiers, Baghdad, Cairo, Milan, Moscow, St Petersburg]
+Infections: 0Y,0R,1B,0G
+
+Jakarta
+Color: B
+Neighbors:  [Bangkok, Chennai, Ho Chi Minh City, Sydney]
+Infections: 0Y,0R,1B,0G
+
+Johannesburg
+Color: B
+Neighbors:  [Khartoum, Kinshasa]
+Infections: 0Y,0R,1B,0G
+
+Karachi
+Color: Y
+Neighbors:  [Baghdad, Delhi, Mumbai, Riyadh, Tehran]
+Infections: 1Y,0R,0B,0G
+
+Khartoum
+Color: R
+Neighbors:  [Cairo, Johannesburg, Kinshasa, Lagos]
+Infections: 0Y,1R,0B,0G
+
+Kinshasa
+Color: Y
+Neighbors:  [Johannesburg, Khartoum, Lagos]
+Infections: 2Y,0R,0B,0G
+
+Kolkata
+Color: Y
+Neighbors:  [Bangkok, Chennai, Delhi, Hong Kong]
+Infections: 1Y,0R,0B,0G
+
+Lagos
+Color: R
+Neighbors:  [Khartoum, Kinshasa, Sao Paulo]
+Infections: 0Y,1R,0B,0G
+
+Lima
+Color: G
+Neighbors:  [Bogota, Mexico City, Santiago]
+Infections: 0Y,0R,0B,1G
+
+London
+Color: Y
+Neighbors:  [Essen, Madrid, New York, Paris]
+Infections: 0Y,0R,0B,0G
+
+Los Angeles
+Color: G
+Neighbors:  [Chicago, Mexico City, San Francisco, Sydney]
+Infections: 0Y,0R,0B,1G
+
+Madrid
+Color: G
+Neighbors:  [Algiers, London, New York, Paris, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Manila
+Color: Y
+Neighbors:  [Ho Chi Minh City, Hong Kong, San Francisco, Sydney, Taipei]
+Infections: 1Y,0R,0B,0G
+
+Mexico City
+Color: G
+Neighbors:  [Bogota, Chicago, Lima, Los Angeles, Miami]
+Infections: 0Y,0R,0B,1G
+
+Miami
+Color: Y
+Neighbors:  [Atlanta, Bogota, Mexico City, Washington]
+Infections: 3Y,0R,0B,0G
+
+Milan
+Color: R
+Neighbors:  [Essen, Istanbul, Paris]
+Infections: 0Y,1R,0B,0G
+
+Montreal
+Color: R
+Neighbors:  [Chicago, New York, Washington]
+Infections: 0Y,1R,0B,0G
+
+Moscow
+Color: Y
+Neighbors:  [Istanbul, St Petersburg, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Mumbai
+Color: B
+Neighbors:  [Chennai, Delhi, Karachi]
+Infections: 0Y,0R,2B,0G
+
+New York
+Color: B
+Neighbors:  [London, Madrid, Montreal, Washington]
+Infections: 0Y,0R,0B,0G
+
+Osaka
+Color: G
+Neighbors:  [Taipei, Tokyo]
+Infections: 0Y,0R,0B,3G
+
+Paris
+Color: B
+Neighbors:  [Algiers, Essen, London, Madrid, Milan]
+Infections: 0Y,0R,0B,0G
+
+Riyadh
+Color: G
+Neighbors:  [Baghdad, Cairo, Karachi]
+Infections: 0Y,0R,0B,1G
+
+San Francisco
+Color: B
+Neighbors:  [Chicago, Los Angeles, Manila, Tokyo]
+Infections: 0Y,0R,1B,0G
+
+Santiago
+Color: B
+Neighbors:  [Lima]
+Infections: 0Y,0R,1B,0G
+
+Sao Paulo
+Color: R
+Neighbors:  [Bogota, Buenos Aires, Lagos, Madrid]
+Infections: 0Y,2R,0B,0G
+
+Seoul
+Color: R
+Neighbors:  [Beijing, Shanghai, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Shanghai
+Color: B
+Neighbors:  [Beijing, Hong Kong, Seoul, Taipei, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+St Petersburg
+Color: G
+Neighbors:  [Essen, Istanbul, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Sydney
+Color: R
+Neighbors:  [Jakarta, Los Angeles, Manila]
+Infections: 0Y,1R,0B,0G
+
+Taipei
+Color: R
+Neighbors:  [Hong Kong, Manila, Osaka, Shanghai]
+Infections: 0Y,1R,0B,0G
+
+Tehran
+Color: G
+Neighbors:  [Baghdad, Delhi, Karachi, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Tokyo
+Color: G
+Neighbors:  [Osaka, San Francisco, Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Washington
+Color: B
+Neighbors:  [Atlanta, Miami, Montreal, New York]
+Infections: 0Y,0R,0B,0G
+
+**********************************************
+Map: map1-example | Seed: 1 | Turn: 6 | InfectRate: 2
+==============================================
+CityCards: 0 | InfectionCards: 47
+==============================================
+Diseases: 
+         Active    isCured    isEradicated
+Yellow:    12        true        false
+Red:       13        false        false
+Blue:      12        false        false
+Green:     12        false        false
+==============================================
+Pawns:
+
+ID: 223
+CityCards:   [Madrid, Riyadh]
+CardColors:  [G, G]
+CurrentCity: Ho Chi Minh City
+CityTrace:   [Seoul, Tokyo, Seoul, Tokyo, Shanghai, Hong Kong, Shanghai, Beijing, Seoul, Beijing, Shanghai, Hong Kong, Ho Chi Minh City]
+
+ID: 224
+CityCards:   [Cairo, Istanbul, Hong Kong, Jakarta, Mumbai, Lima, Johannesburg]
+CardColors:  [B, B, G, B, B, G, R, Y, B]
+CurrentCity: Washington
+CityTrace:   [Moscow, St Petersburg, Essen, Milan, Istanbul, Algiers, Madrid, New York, Montreal, New York, Washington]
+
+ID: 225
+CityCards:   [St Petersburg, Osaka, Essen, Bangkok, Los Angeles, Atlanta, Sydney]
+CardColors:  [R, G, G, G, R, G, R, R, Y]
+CurrentCity: Baghdad
+CityTrace:   [Baghdad, Cairo, Algiers, Istanbul, Cairo, Riyadh, Karachi, Tehran, Moscow, Tehran, Baghdad, Cairo, Baghdad]
+
+ID: 226
+CityCards:   [Tokyo, Chennai, Shanghai, Tehran, New York, Mexico City, Moscow]
+CardColors:  [G, G, B, G, B, G, R, Y, Y]
+CurrentCity: Washington
+CityTrace:   [New York, London, Madrid, Paris, London, Madrid, New York, London, Madrid, New York, Washington]
+
+==============================================
+Cities:
+
+Algiers
+Color: Y
+Neighbors:  [Cairo, Istanbul, Madrid, Paris]
+Infections: 0Y,0R,0B,0G
+
+Atlanta
+Color: R
+Neighbors:  [Chicago, Miami, Washington]
+Infections: 0Y,1R,0B,0G
+
+Baghdad
+Color: R
+Neighbors:  [Cairo, Istanbul, Karachi, Riyadh, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Bangkok
+Color: R
+Neighbors:  [Chennai, Ho Chi Minh City, Hong Kong, Jakarta, Kolkata]
+Infections: 0Y,1R,0B,0G
+
+Beijing
+Color: Y
+Neighbors:  [Seoul, Shanghai]
+Infections: 1Y,0R,0B,0G
+
+Bogota
+Color: B
+Neighbors:  [Buenos Aires, Lima, Mexico City, Miami, Sao Paulo]
+Infections: 0Y,0R,1B,0G
+
+Buenos Aires
+Color: Y
+Neighbors:  [Bogota, Sao Paulo]
+Infections: 1Y,0R,0B,0G
+
+Cairo
+Color: B
+Neighbors:  [Algiers, Baghdad, Istanbul, Khartoum, Riyadh]
+Infections: 0Y,0R,0B,0G
+
+Chennai
+Color: G
+Neighbors:  [Bangkok, Delhi, Jakarta, Kolkata, Mumbai]
+Infections: 0Y,0R,0B,1G
+
+Chicago
+Color: Y
+Neighbors:  [Atlanta, Los Angeles, Mexico City, Montreal, San Francisco]
+Infections: 1Y,0R,0B,0G
+
+Delhi
+Color: R
+Neighbors:  [Chennai, Karachi, Kolkata, Mumbai, Tehran]
+Infections: 0Y,1R,0B,0G
+
+Essen
+Color: G
+Neighbors:  [London, Milan, Paris, St Petersburg]
+Infections: 0Y,0R,0B,0G
+
+Ho Chi Minh City
+Color: Y
+Neighbors:  [Bangkok, Hong Kong, Jakarta, Manila]
+Infections: 0Y,0R,0B,0G
+
+Hong Kong
+Color: G
+Neighbors:  [Bangkok, Ho Chi Minh City, Kolkata, Manila, Shanghai, Taipei]
+Infections: 0Y,0R,0B,0G
+
+Istanbul
+Color: B
+Neighbors:  [Algiers, Baghdad, Cairo, Milan, Moscow, St Petersburg]
+Infections: 0Y,0R,1B,0G
+
+Jakarta
+Color: B
+Neighbors:  [Bangkok, Chennai, Ho Chi Minh City, Sydney]
+Infections: 0Y,0R,1B,0G
+
+Johannesburg
+Color: B
+Neighbors:  [Khartoum, Kinshasa]
+Infections: 0Y,0R,1B,0G
+
+Karachi
+Color: Y
+Neighbors:  [Baghdad, Delhi, Mumbai, Riyadh, Tehran]
+Infections: 1Y,0R,0B,0G
+
+Khartoum
+Color: R
+Neighbors:  [Cairo, Johannesburg, Kinshasa, Lagos]
+Infections: 0Y,1R,0B,0G
+
+Kinshasa
+Color: Y
+Neighbors:  [Johannesburg, Khartoum, Lagos]
+Infections: 2Y,0R,0B,0G
+
+Kolkata
+Color: Y
+Neighbors:  [Bangkok, Chennai, Delhi, Hong Kong]
+Infections: 1Y,0R,0B,0G
+
+Lagos
+Color: R
+Neighbors:  [Khartoum, Kinshasa, Sao Paulo]
+Infections: 0Y,1R,0B,0G
+
+Lima
+Color: G
+Neighbors:  [Bogota, Mexico City, Santiago]
+Infections: 0Y,0R,0B,1G
+
+London
+Color: Y
+Neighbors:  [Essen, Madrid, New York, Paris]
+Infections: 0Y,0R,0B,0G
+
+Los Angeles
+Color: G
+Neighbors:  [Chicago, Mexico City, San Francisco, Sydney]
+Infections: 0Y,0R,0B,1G
+
+Madrid
+Color: G
+Neighbors:  [Algiers, London, New York, Paris, Sao Paulo]
+Infections: 0Y,0R,0B,0G
+
+Manila
+Color: Y
+Neighbors:  [Ho Chi Minh City, Hong Kong, San Francisco, Sydney, Taipei]
+Infections: 1Y,0R,0B,0G
+
+Mexico City
+Color: G
+Neighbors:  [Bogota, Chicago, Lima, Los Angeles, Miami]
+Infections: 0Y,0R,0B,1G
+
+Miami
+Color: Y
+Neighbors:  [Atlanta, Bogota, Mexico City, Washington]
+Infections: 3Y,0R,0B,0G
+
+Milan
+Color: R
+Neighbors:  [Essen, Istanbul, Paris]
+Infections: 0Y,1R,0B,0G
+
+Montreal
+Color: R
+Neighbors:  [Chicago, New York, Washington]
+Infections: 0Y,1R,0B,0G
+
+Moscow
+Color: Y
+Neighbors:  [Istanbul, St Petersburg, Tehran]
+Infections: 0Y,0R,0B,0G
+
+Mumbai
+Color: B
+Neighbors:  [Chennai, Delhi, Karachi]
+Infections: 0Y,0R,2B,0G
+
+New York
+Color: B
+Neighbors:  [London, Madrid, Montreal, Washington]
+Infections: 0Y,0R,0B,0G
+
+Osaka
+Color: G
+Neighbors:  [Taipei, Tokyo]
+Infections: 0Y,0R,0B,3G
+
+Paris
+Color: B
+Neighbors:  [Algiers, Essen, London, Madrid, Milan]
+Infections: 0Y,0R,0B,0G
+
+Riyadh
+Color: G
+Neighbors:  [Baghdad, Cairo, Karachi]
+Infections: 0Y,0R,0B,1G
+
+San Francisco
+Color: B
+Neighbors:  [Chicago, Los Angeles, Manila, Tokyo]
+Infections: 0Y,0R,1B,0G
+
+Santiago
+Color: B
+Neighbors:  [Lima]
+Infections: 0Y,0R,1B,0G
+
+Sao Paulo
+Color: R
+Neighbors:  [Bogota, Buenos Aires, Lagos, Madrid]
+Infections: 0Y,2R,0B,0G
+
+Seoul
+Color: R
+Neighbors:  [Beijing, Shanghai, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+Shanghai
+Color: B
+Neighbors:  [Beijing, Hong Kong, Seoul, Taipei, Tokyo]
+Infections: 0Y,0R,0B,0G
+
+St Petersburg
+Color: G
+Neighbors:  [Essen, Istanbul, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Sydney
+Color: R
+Neighbors:  [Jakarta, Los Angeles, Manila]
+Infections: 0Y,1R,0B,0G
+
+Taipei
+Color: R
+Neighbors:  [Hong Kong, Manila, Osaka, Shanghai]
+Infections: 0Y,1R,0B,0G
+
+Tehran
+Color: G
+Neighbors:  [Baghdad, Delhi, Karachi, Moscow]
+Infections: 0Y,0R,0B,0G
+
+Tokyo
+Color: G
+Neighbors:  [Osaka, San Francisco, Seoul, Shanghai]
+Infections: 0Y,0R,0B,0G
+
+Washington
+Color: B
+Neighbors:  [Atlanta, Miami, Montreal, New York]
+Infections: 0Y,0R,0B,0G
+

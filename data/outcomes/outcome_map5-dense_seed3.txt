@@ -1,0 +1,5 @@
+Map: map5-dense
+InfectionsCured: 1
+InfectionsLeft:  12Y,11R,12B,12G
+
+LOSS: Ran out of player cards.
