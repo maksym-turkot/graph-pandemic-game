@@ -1,4 +1,4 @@
-# A graph-implemented game based on the popular board game Pandemic
+# A Graph-Implemented Game Based on the Popular Board Game Pandemic
 
 The goal of the project is to create a simulation of a market and calculate certain metrics based on multiple runs of different configurations of the simulation (different numbers of different types of stalls, and their transaction speed).
 
